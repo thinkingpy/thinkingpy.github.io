@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "使用 github 搭建自己的博客 "
-author: 邹伟
+author: thinkingpy
 description: "如何使用 github 搭建自己的博客。"
 date:   2019-01-20 15:06:52 +0800
 categories: [tutorial]
+tags: ["博客","jekyll","教程"]
 ---
 
 ### 1.注册 github 账号

@@ -1,10 +1,11 @@
 ---
 layout: post
 title: "写作是每个人成长的希望"
-author: 邹伟
+author: thinkingpy
 description: "写作就是反思、成长、创造，是每个人的希望"
 date:   2017-09-23 20:06:03 +0800
 categories: [thoughts]
+tags: ["写作"]
 ---
 
 说起来都是老生常谈话题，相信凡是有过写作经历的人都会有各自的认识。今天我来说说我对于写作的认识以及我从开始到放弃的各种经历。
