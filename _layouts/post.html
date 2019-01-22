@@ -6,17 +6,27 @@ layout: default
   <header class="post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        {%- assign date_format = site.minima.date_format | default: "%M 月%-d 日, %Y" -%}
+
+      {%- if page.author -%}
+         <span itemprop="author" itemscope itemtype="http://schema.org/Person">作者：<span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+      {%- endif -%}
+       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        更新时间：{%- assign date_format = site.minima.date_format | default: "%Y 年 %M 月 %-d 日" -%}
         {{ page.date | date: date_format }}
       </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
+
+    </p>
+     
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
+  </div>
+
+  <div style="text-align:left;text-shadow: 1ch;">
+    <p>转载请注明出处，本文首发地址：
+      <strong><a href="{{ page.url | relative_url }}">http://thinkingpy.com{{ page.url | relative_url }}</a></strong>
+    </p>
   </div>
 
   {%- if site.disqus.shortname -%}
