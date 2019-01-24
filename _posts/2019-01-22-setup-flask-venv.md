@@ -17,10 +17,37 @@ description: 进行 flask web 开发，环境该如何搭建，这个教程将�
 
 ## Flask 简介
 
-Flask （<http://flask.pocoo.org/>）是一个使用 Python 编写的轻量级 Web 应用框架。它有一个强健的核心，基于这个核心你可以根据自身需求扩展模块，精确满足自身的需求。
+Flask（<http://flask.pocoo.org/>）是用 Python 写的轻量级 Web 框架，内核支持扩展三方模块或自建模块，可按需选择。它的两个核心依赖分别是 Werkzeug (<http://werkzeug.pocoo.org/>) 和 Jinja2 (<http://jinja.pocoo.org>)。Werkzeug 提供路由、调试和 Web 服务器网关接口（Web Server Gateway Interface,WSGI）；Jinja2 提供模板系统。
 
-Flask 有两个核心依赖库：Werkzeug (<http://werkzeug.pocoo.org/>)库提供路由、调试和 Web 服务器网关接口（Web Server Gateway Interface,WSGI）；Jinja2 (<http://jinja.pocoo.org>)库提供模板系统。
+## 虚拟环境中安装 Flask
 
-## Flask 安装
+安装 Flask 当然要推荐使用虚拟环境，这样不仅可以避免和全局环境的包发生冲突，而且每个项目都可以建一个独立的虚拟环境，互不影响。创建虚拟环境通常使用 virtualenv 。大部分 Linux 发行版都提供了这个包，比如我用 Ubuntu 安装：
+
+    sudo apt-get install python-virtualenv
+
+如果你用 Mac OS X 系统，可以使用 easy_install 安装：
+
+    sudo easy_install virtualenv
+
+如果你用 Windows 系统，去搜一下应该也不复杂。
+
+虚拟环境创建工具准备好后，创建一个项目目录 flasky ，然后进到目录创建虚拟环境 venv ：
+
+    $ virtualevn venv
+    New python executable in /home/zw/flasky/venv/bin/python3
+    Also creating executable in /home/zw/flasky/venvbin/python
+    Installing setuptools, pip, wheel...
+    done.
+
+这样 flasky 目录下会多一个 venv 目录，这里放的就是虚拟环境，是基于全局环境的一个副本。如果想要切入虚拟环境：
+
+    $ source ./venv/bin/activate
+    (venv)zw@zwpc:~$
+
+进入虚拟环境后，命名提示前面会有类似（venv）提示。然后我们就可以愉快的在虚拟环境里安装 flask :
+
+    pip install flask
+
+好了！一个热乎的 flask 安装完成。
 
 ## Flask 程序基本结构
