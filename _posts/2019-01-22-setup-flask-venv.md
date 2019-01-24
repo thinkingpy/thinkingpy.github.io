@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Flask 简介-《带你进入 Flask Web 开发》"
+title: "Flask 简介&安装-《带你进入 Flask Web 开发》"
 author: thinkingpy
 createdate: 2019-01-22 15:06:52 +0800
 changedate: 2019-01-22 15:06:52 +0800
 categories: ["tutorial"]
 tags: ["flask web","flask",“web”,"教程"]
-keywords: flask,flask简介,flask安装,flask程序结构,flask虚拟环境
-description: 进行 flask web 开发，环境该如何搭建，这个教程将向你详细说明。
+keywords: flask,flask简介,flask安装,flask虚拟环境
+description: flask 是啥？拿 flask 进行 Web 开发，环境该如何搭建? 这个教程将向你详细说明。
 ---
 
 * auto-gen TOC:
@@ -49,5 +49,3 @@ Flask（<http://flask.pocoo.org/>）是用 Python 写的轻量级 Web 框架，�
     pip install flask
 
 好了！一个热乎的 flask 安装完成。
-
-## Flask 程序基本结构
