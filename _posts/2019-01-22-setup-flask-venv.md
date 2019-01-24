@@ -35,7 +35,7 @@ Flask（<http://flask.pocoo.org/>）是用 Python 写的轻量级 Web 框架，�
 
     $ virtualevn venv
     New python executable in /home/zw/flasky/venv/bin/python3
-    Also creating executable in /home/zw/flasky/venvbin/python
+    Also creating executable in /home/zw/flasky/venv/bin/python
     Installing setuptools, pip, wheel...
     done.
 
