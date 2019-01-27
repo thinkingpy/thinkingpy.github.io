@@ -11,8 +11,8 @@ layout: default
          <span itemprop="author" itemscope itemtype="http://schema.org/Person">作者：<span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
       {%- endif -%}
        <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
-        更新时间：{%- assign date_format = site.minima.date_format | default: "%Y 年 %M 月 %-d 日" -%}
-        {{ page.date | date: date_format }}
+        更新时间：
+        {{ page.date }}
       </time>
 
     </p>

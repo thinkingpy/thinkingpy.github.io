@@ -4,7 +4,7 @@ title: "写作是每个人成长的希望"
 author: thinkingpy
 createdate: 2017-09-23 20:06:03 +0800
 changedate: 2017-09-23 20:06:03 +0800
-categories: [thoughts]
+categories: thoughts
 tags: ["写作"]
 keywords: 写作,希望,成长
 description: "写作就是反思、成长、创造，是每个人的希望"

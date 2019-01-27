@@ -11,11 +11,23 @@ layout: default
 
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "文章列表" }}</h2>
+    
+    <!-- {%- assign items = site.posts | group_by: "categories" -%}
+    {%- for item in items -%}
+      <div>
+          <h2>{{ item.name }} ({{ item.size }})</h2>
+          {%- for post in item.items -%}
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          {%- endfor -%}
+      </div>
+    {%- endfor -%}
+   </ul> -->
+
     <ul class="post-list">
       {%- for post in site.posts -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%M 月%-d 日, %Y" -%}
-        <span class="post-meta">{{post.author}} {{ post.createdate | date: date_format }} </span>
+        <span class="post-meta">{{post.author}} {{ post.createdate }} </span>
         <h3></h3>
           <a class="post-link" href="{{ post.url | relative_url }}">
             {{ post.title | escape }}

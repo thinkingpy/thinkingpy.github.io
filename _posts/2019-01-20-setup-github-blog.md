@@ -4,7 +4,7 @@ title: "使用 github 搭建自己的博客 "
 author: thinkingpy
 createdate: 2019-01-20 15:06:52 +0800
 changedate: 2019-01-20 15:06:52 +0800
-categories: [tutorial]
+categories: tutorial
 tags: ["博客","jekyll","教程"]
 keywords: github博客,jekyll
 description: 如何使用 github 搭建自己的博客。
@@ -83,7 +83,7 @@ description: 如何使用 github 搭建自己的博客。
 
 更多说明见 <https://jekyllrb.com/docs/datafiles/>
 
-* 资产（Assets）
+* 资源文件（Assets）
 
 主要用于管理 css 和 js ,支持 sass 和 coffescript。
 
