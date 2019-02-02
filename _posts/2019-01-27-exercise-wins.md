@@ -4,7 +4,8 @@ title: "终身锻炼可以让你保持年轻"
 author: thinkingpy
 createdate: 2019-01-27 15:56:01 +0800
 changedate: 2019-01-27 15:56:07 +0800
-categories: daily-reading
+categories: trans
+category-title: 翻译
 tags: ["终身锻炼","锻炼",“年轻”]
 keywords: 英语阅读,锻炼
 description: 长期运动有什么好处？让的的心肺、肌肉保持活力。

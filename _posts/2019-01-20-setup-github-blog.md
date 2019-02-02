@@ -5,6 +5,7 @@ author: thinkingpy
 createdate: 2019-01-20 15:06:52 +0800
 changedate: 2019-01-20 15:06:52 +0800
 categories: tutorial
+category-title: 教程
 tags: ["博客","jekyll","教程"]
 keywords: github博客,jekyll
 description: 如何使用 github 搭建自己的博客。

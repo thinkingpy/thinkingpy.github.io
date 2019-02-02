@@ -5,6 +5,7 @@ author: thinkingpy
 createdate: 2019-01-22 15:06:52 +0800
 changedate: 2019-01-22 15:06:52 +0800
 categories: tutorial
+category-title: 教程
 tags: ["flask web","flask",“web”,"教程"]
 keywords: flask,flask简介,flask安装,flask虚拟环境
 description: flask 是啥？拿 flask 进行 Web 开发，环境该如何搭建? 这个教程将向你详细说明。
