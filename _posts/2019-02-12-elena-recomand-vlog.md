@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "荷兰留学美女推荐vlog,值得收藏"
+title: "荷兰留学美女推荐油管,值得收藏"
 author: thinkingpy
 createdate: 2019-02-02 15:56:01 +0800
 changedate: 2019-02-02 15:56:07 +0800
 categories: thoughts
 category-title: 思考
 tags: ["vlog","美女",“学习博客”]
-keywords: vlog推荐,youtube频道推荐,
+keywords: vlog推荐,youtube频道推荐,油管推荐
 description: 
 ---
 
@@ -49,7 +49,7 @@ valeria lipovertsky
 freddy my love
 时尚博主，时尚搭配
 
-# 学习博主类
+# 学习类
 studyquill
 笔记分享，怎么学习，做笔记，声音风格好舒服
 
@@ -57,3 +57,6 @@ tomas frank
 专业效率、演讲家、学习软件
 
 使用youtube学习英语
+
+
+美女油管频道：Elena Lin 青青
