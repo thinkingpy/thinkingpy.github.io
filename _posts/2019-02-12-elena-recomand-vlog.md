@@ -11,15 +11,18 @@ keywords: vlog推荐,youtube频道推荐,油管推荐
 description: 
 ---
 
+下面的油管 <https://www.youtube.com> 是一个留学荷兰的美女推荐的，英文名称就是频道名称,国内b站有搬运，同名搜索大部分可以找到。
+
 # 手账类(bullet journal)
 
 AmandaRachLee
-0创意，打卡排版
+创意，打卡排版
 
 jenny journals
 插画师，排版好，视频舒服，激发灵感
 
 # vlog 类
+
 sueddu
 韩国艺术家，无声，画面美丽，摄影师，故事线拍摄
 
@@ -27,6 +30,7 @@ vlogbrothers
 兄弟博主，社会思考，有意思的事情，两个人的频道
 
 # 科普类
+
 sciShow
 科学科普，科学近期发展的频道
 
@@ -37,10 +41,11 @@ crashcourse
 科目普及，推荐study系列
 
 # 个人提升类
+
 lavendaire
 华侨妹子，热门，正能量视频
 
-jenn im 
+jenn im
 生活分享，拍照怎么摆pose
 
 valeria lipovertsky
@@ -50,13 +55,15 @@ freddy my love
 时尚博主，时尚搭配
 
 # 学习类
+
 studyquill
 笔记分享，怎么学习，做笔记，声音风格好舒服
 
-tomas frank 
+tomas frank
 专业效率、演讲家、学习软件
 
 使用youtube学习英语
 
+# 美女油管频道
 
-美女油管频道：Elena Lin 青青
+Elena Lin 青青
