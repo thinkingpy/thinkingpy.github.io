@@ -62,8 +62,6 @@ studyquill
 tomas frank
 专业效率、演讲家、学习软件
 
-使用youtube学习英语
-
 # 美女油管频道
 
 Elena Lin 青青
